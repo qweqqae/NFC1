@@ -1,0 +1,23 @@
+body {
+    background: rgb(0, 0, 0); /* Чёрный фон страницы */
+    margin: 0; /* Убираем отступы */
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn button {
+    flex-grow: 1; /* Растягиваем кнопку */
+    width: 100%;
+    max-width: 1000px;
+    background-color: black; /* Чёрный фон кнопки */
+    color: white; /* Белый текст (чтобы был виден) */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    cursor: pointer; /* Делаем курсор указателем */
+}
